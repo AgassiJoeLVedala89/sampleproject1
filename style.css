@@ -1,0 +1,49 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+
+.row{
+  max-width:1140px;
+  margin:0 auto;
+}
+
+
+body{
+  font-family:tahoma;
+}
+
+
+.hero{
+  position:absolute;
+  width:900px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+header {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(img/hero.jpg);
+  height:100vh;
+  background-position: center;
+  background-size:cover;
+}
+
+h1{
+  color: SkyBlue;
+}
+
+.main-nav {
+  list-style: none;
+  float:right;
+}
+
+
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav li a {
+  color:white;
+}
